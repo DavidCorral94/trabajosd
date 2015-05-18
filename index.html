@@ -1,0 +1,60 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <link href="http://www.google.com/design/spec/static/css/main.css" rel="stylesheet" />
+    <link href='https://fonts.googleapis.com/css?family=RobotoDraft:400,500,700,400italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="http://josecarlosaragon.hol.es/estilos.css" rel='stylesheet' type='text/css'>
+    
+    <title>API FACEBOOK - TWITTER</title>
+</head>
+<body>
+    <header class="qp-ui" data-qp-ui="{
+  'Peekaboo': {
+    'mobile': 72,
+    'desktop-sm': 72,
+    'default': 192
+  }
+}">
+  <div class="header-wrapper qp-ui" data-qp-ui="{
+    'Peekaboo': {
+      'mobile': 28,
+      'desktop-sm': 28,
+      'default': 82
+    }
+  }">
+    <div class="header-title">      <span class="section-title">API FACEBOOK - TWITTER</span>
+      <span class="chapter-title">Publicar en Facebook y Twitter</span>
+    </div>
+  </div>
+</header>
+    
+
+  <div class="search">
+    	<div class="group"> 
+			<form action="/twittear" method="POST"> <!--llama a la funcion del api twittear-->
+		   		Twittear: <input type="text" name="textT">
+		        <input type="submit" name="my-form" class="button buttonBlue" value="Enviar">
+		    </form>
+		</div>
+	</div>
+
+  <div class="search">
+      <div class="group"> 
+      <form action="/pubFacebook" method="POST"> <!--llama a la funcion del api publicar en facebook-->
+          Publicar en Facebook: <input type="text" name="textF">
+            <input type="submit" name="my-form" class="button buttonBlue" value="Enviar">
+        </form>
+    </div>
+  </div>
+
+  <div class="search">
+      <div class="group"> 
+      <form action="/buscar" method="POST"> <!--llama a la funcion global que realiza ambas funciones-->
+          Twittear y publicar en Facebook: <input type="text" name="text">
+            <input type="submit" name="my-form" class="button buttonBlue" value="Enviar">
+        </form>
+    </div>
+  </div>
+
+</body>
+</html>
