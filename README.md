@@ -46,7 +46,7 @@ Para poder poner en marcha el proyecto, descárguese el contenido de este reposi
 <li>En la terminal donde estamos ejecutando el entorno virtual, ejecuta la orden <b>$ python api.py</b> abre el navegador y accede a la dirección http://127.0.0.1:5000/, ¡ya tienes el proyecto andando!</li>
 </ol>
 
-#Referencias
+# Referencias
 http://rukbottoland.com/blog/tutorial-de-python-virtualenv/<br/>
 https://pypi.python.org/pypi/python-twitter/ <br/>
 http://facebook-sdk.readthedocs.org/en/latest/install.html <br/>
