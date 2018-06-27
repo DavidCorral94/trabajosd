@@ -10,21 +10,21 @@ Yassine Bouissef<br/>
 Francisco Javier Rodríguez Revidiego<br/>
 Alberto Espina Granados<br/>
 
-#Tareas
+# Tareas
 <b>Coordinador:</b> David José Corral Plaza <br/>
 <b>Desarolladores Twitter:</b> Pedro Soto Enríquez <br/> 
 Yassine Bouisser<br>
 <b>Desarrolladores Facebook:</b> Alberto Espina Granados <br/>
 Francisco Javier Rodríguez Revidiego <br/>
 
-#Documentación
+# Documentación
 El proyecto hace uso de dos API, la de Twitter y la de Facebook. Además de estas dos API, hemos hecho uso de los siguientes paquetes: Flask, python-twitter, Jinja2, twitter.
 
 Lanzando el proyecto en un servidor local accederemos a un .html mediante el cual podremos poner en marcha las diferentes funcionalidades que presenta esta API que convina servicios tanto de Twitter como de Facebook.
 
 La principal idea del proyecto es proveer un servicio para los diferentes usuarios que puedan realizar una integración de diferentes Redes Sociales a través de una sola plataforma para la cual no será necesario tener abiertas diferentes pestañas, sino que con estar conectados en la pestaña principal del proyecto podrá acceder a los diferentes servicios que ofrecen las Redes Sociales pero todas desde un mismo lugar.
 
-#Instrucciones
+# Instrucciones
 Para poder poner en marcha el proyecto, descárguese el contenido de este repositorio en primer lugar y siga las instrucciones.
 <ol>
 <li>Instala virtualenv, puedes hacerlo con la orden <b>$ sudo apt-get install python-virtualenv </b> ó, si ya tienes instalado el paquete pip, <b>$ sudo pip-python install virtualenv</b>.</li>
